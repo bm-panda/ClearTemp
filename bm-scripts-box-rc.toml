@@ -1,0 +1,29 @@
+[bmscriptsbox.info]
+id = "15c45dec-5b6f-494e-9876-b3bde8611398"              
+name = "清理临时文件"                                    
+desc = "Windows清理临时文件bat脚本、通过不忙脚本盒子的邮件、快捷键、定时任务、可实现快速执行、定时执行清理"                                  
+version = "0.1.0"                                        
+
+[bmscriptsbox.runtime]
+language = "bat"
+language_version = ">=0.0.0"                  
+entry = "ClearTemp.bat"                   
+terminal = "always"                       
+
+[bmscriptsbox.triggers.context_menu]
+enabled = true
+targets = ["background"]
+
+
+[bmscriptsbox.triggers.shortcut]
+enabled = true
+input_type = ""
+
+
+
+
+ 
+
+
+
+
