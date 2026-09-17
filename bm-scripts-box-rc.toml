@@ -4,7 +4,7 @@
 id = "15c45dec-5b6f-494e-9876-b3bde8611398"
 name = "清理临时文件"
 desc = "一键清理 Windows 系统临时文件，支持当前用户临时文件夹、系统级 Temp 和预读取缓存"
-version = "1.0.1"
+version = "1.1.0"
 icon = 'temp.png'
 
 [bmscriptsbox.runtime]
@@ -19,5 +19,7 @@ targets = ["background"]
 
 [bmscriptsbox.triggers.shortcut]
 enabled = true
-input_type = ""
+
+[bmscriptsbox.schedule]
+enabled = true   
 
